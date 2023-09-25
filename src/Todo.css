@@ -1,0 +1,129 @@
+.Todo{
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background: #276c91;
+    width: 70vw;
+    height: 90vh;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgb(0, 0, 0);
+}
+.title{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+}
+.container .form-todo{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .form-todo .form-input{
+    width: 87%;
+    height: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+.container .form-todo .btn{
+    width: 10%;
+    height: 35%;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    padding: 5px;
+    background: transparent;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+.container .form-todo .btn:hover{
+    background: #fff;
+    color: #276c91;
+}
+.todo-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 20px;
+
+}
+.todo-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+
+}
+.todo-list{
+    width: 31%;
+    height: 68vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.todo-card{
+    width: 100%;
+    height: auto;
+    color: #276c91;
+    background: #fff;
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin-top: 3px;
+    margin-right: 6px;
+}
+.todo-card .card-text{
+    margin: auto;
+}
+.icon-check{
+    background: #276c91;
+    color: #fff;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.icon-delete{
+    background: red;
+    color: #fff;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.done-card{
+  width: 100%;
+  height: auto;
+  color: #000;
+  background: yellow;
+  padding: 2px 5px;
+  border-radius: 5px;
+  margin-top: 3px;
+}
+.done-card .card-text{
+    margin: auto;
+}
+.icon-delete-done{
+    background: #fff;
+    color: red;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.delete-card{
+    width: 100%;
+    height: auto;
+    color: #fff;
+    background: #00b09b;
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin-top: 3px;
+}
